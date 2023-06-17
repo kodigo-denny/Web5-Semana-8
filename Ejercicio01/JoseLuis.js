@@ -28,7 +28,7 @@ const promedio = sum / arrayNota.length; // operacion para calcular el promedio
 // Paso 2 mostrar el promedio de los estudiantes
 console.log(`El promedio de los estudiantes es: ${promedio.toFixed(2)}` );
 
-
+// Paso 3 mostrar el el nombre de cada alumno y su nota correspondiente + la nota mas alta
 for(let i = 0; i < arrayNombre.length; i++){
     console.log(arrayNombre[i]+ ' - ' + arrayNota[i] + (mayor == arrayNota[i] ? "La nota mas alta": ""));
 }  
